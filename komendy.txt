@@ -1,0 +1,12 @@
+autoprefixer-cli -o style.prefixed.css style.css
+
+rozumiem, że to nie dzieje się na bieżąco, tylko po napisaniu całego style.css i wydaniu komendy generujemy style.prefixed.css z prefixami.
+
+
+node_modules/.bin/nu-html-checker *.html
+
+może jestem tumanem, ale zeszło mi sporo czasu z tym :-)))
+
+
+
+

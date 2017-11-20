@@ -1,0 +1,28 @@
+* {
+	color: white;
+}
+.container {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+body {
+	height: auto;
+	width: auto;
+	background-color: grey;
+	margin: 0 auto;
+	background: linear-gradient(red, green);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.main {
+	margin-top: 100px;
+}
+header h1, header h3 {
+	text-align: center;
+}
+.footer {
+	text-align: center;
+}
+
