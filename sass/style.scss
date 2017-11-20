@@ -9,18 +9,21 @@
 body {
 	height: auto;
 	width: auto;
-	background-color: grey;
+	background-color: red;
 	margin: 0 auto;
 	background: linear-gradient(red, green);
 	display: flex;
+	.main {
+		margin-top: 100px;
+		header h1, header h3 {
+			text-align: center;
+		}
+	}
+	.footer {
+		text-align: center;
+	}
 }
-.main {
-	margin-top: 100px;
-}
-header h1, header h3 {
-	text-align: center;
-}
-.footer {
-	text-align: center;
-}
+
+	
+	
 
