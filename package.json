@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
   "scripts": {
-    "test": "npm run test:html",
-    "test:html": "glob-run nu-html-checker *.html"
+  "test": "npm run test:html",
+  "test:html": "glob-run nu-html-checker *.html",
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BartekBuslowicz/proj_73.git"
