@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:html",
+    "test:html": "glob-run nu-html-checker *.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/BartekBuslowicz/proj_73/issues"
   },
-  "homepage": "https://github.com/BartekBuslowicz/proj_73#readme"
+  "homepage": "https://github.com/BartekBuslowicz/proj_73#readme",
+  "dependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.18.13",
+    "glob-run": "^0.1.6",
+    "nu-html-checker": "^0.1.0"
+  }
 }
